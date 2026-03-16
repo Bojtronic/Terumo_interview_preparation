@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PRODUCTOS</title>
+    <link rel="icon" href="Images/technology.png">
+    <link rel="stylesheet" href="Style/style3.css">
+</head>
+<body>
+    <div id="header">
+        <div class="logo">ZonaTecno Admin</div>
+        <div class="menu">
+            <a href="home_admin.html">Inicio</a>
+            <a>-</a>
+            <a href="producto.html">Gestionar Productos</a>
+            <a>-</a>
+            <a href="cliente.html">Gestionar Clientes</a>
+            <a>-</a>
+            <a href="usuario.html">Gestionar Usuarios</a>
+        </div>
+    </div>
+    <h1>Gestion de productos</h1>
+
+    <!-- Mostrar todos los productos -->
+    <h2>Productos:</h2>
+    <ul id="productosList"></ul>
+
+    <!-- Ver un producto por ID -->
+    <h2>Ver producto por ID:</h2>
+    <label for="productId">ID del producto:</label>
+    <input type="text" id="productId" placeholder="ID">
+    <button onclick="getProductoById()">Ver producto</button>
+    <div id="productoDetails"></div>
+
+    <!-- Agregar nuevo producto -->
+    <h2>Agregar nuevo producto:</h2>
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" placeholder="Nombre">
+    <label for="precio">Precio:</label>
+    <input type="number" id="precio" placeholder="Precio">
+    <label for="descripcion">Descripción:</label>
+    <input type="text" id="descripcion" placeholder="Descripción">
+    <button onclick="createProducto()">Agregar producto</button>
+
+    <!-- Modificar producto -->
+    <h2>Modificar producto:</h2>
+    <label for="productIdToUpdate">ID del producto a modificar:</label>
+    <input type="text" id="productIdToUpdate" placeholder="ID">
+    <label for="nombreToUpdate">Nuevo nombre:</label>
+    <input type="text" id="nombreToUpdate" placeholder="Nuevo nombre">
+    <label for="precioToUpdate">Nuevo precio:</label>
+    <input type="number" id="precioToUpdate" placeholder="Nuevo precio">
+    <label for="descripcionToUpdate">Nueva descripción:</label>
+    <input type="text" id="descripcionToUpdate" placeholder="Nueva descripción">
+    <button onclick="updateProducto()">Modificar producto</button>
+
+    <!-- Eliminar producto -->
+    <h2>Eliminar producto:</h2>
+    <label for="productIdToDelete">ID del producto a eliminar:</label>
+    <input type="text" id="productIdToDelete" placeholder="ID">
+    <button onclick="deleteProducto()">Eliminar producto</button>
+
+    <script src="Script/producto.js"></script>
+</body>
+</html>

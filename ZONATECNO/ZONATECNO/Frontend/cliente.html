@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CLIENTES</title>
+    <link rel="icon" href="Images/technology.png">
+    <link rel="stylesheet" href="Style/style3.css">
+</head>
+<body>
+    <div id="header">
+        <div class="logo">ZonaTecno Admin</div>
+        <div class="menu">
+            <a href="home_admin.html">Inicio</a>
+            <a>-</a>
+            <a href="producto.html">Gestionar Productos</a>
+            <a>-</a>
+            <a href="cliente.html">Gestionar Clientes</a>
+            <a>-</a>
+            <a href="usuario.html">Gestionar Usuarios</a>
+        </div>
+    </div>
+    <h1>Gestion de clientes</h1>
+
+    <!-- Mostrar todos los clientes -->
+    <h2>Clientes:</h2>
+    <ul id="clientesList"></ul>
+
+    <!-- Ver un cliente por ID -->
+    <h2>Ver cliente por ID:</h2>
+    <label for="clientId">ID del cliente:</label>
+    <input type="text" id="clientId" placeholder="ID">
+    <button onclick="getClienteById()">Ver cliente</button>
+    <div id="clienteDetails"></div>
+
+    <!-- Agregar nuevo cliente -->
+    <h2>Agregar nuevo cliente:</h2>
+    <label for="retira">Retira:</label>
+    <input type="text" id="retira" placeholder="Retira">
+    <label for="direccion">Dirección:</label>
+    <input type="text" id="direccion" placeholder="Dirección">
+    <button onclick="createCliente()">Agregar cliente</button>
+
+    <!-- Modificar cliente -->
+    <h2>Modificar cliente:</h2>
+    <label for="clientIdToUpdate">ID del cliente a modificar:</label>
+    <input type="text" id="clientIdToUpdate" placeholder="ID">
+    <label for="retiraToUpdate">Nuevo retira:</label>
+    <input type="text" id="retiraToUpdate" placeholder="Nuevo retira">
+    <label for="direccionToUpdate">Nueva dirección:</label>
+    <input type="text" id="direccionToUpdate" placeholder="Nueva dirección">
+    <button onclick="updateCliente()">Modificar cliente</button>
+
+    <!-- Eliminar cliente -->
+    <h2>Eliminar cliente:</h2>
+    <label for="clientIdToDelete">ID del cliente a eliminar:</label>
+    <input type="text" id="clientIdToDelete" placeholder="ID">
+    <button onclick="deleteCliente()">Eliminar cliente</button>
+
+    <script src="Script/cliente.js"></script>
+</body>
+</html>

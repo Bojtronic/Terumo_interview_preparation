@@ -1,0 +1,240 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .header h1 {
+    font-size: 32px;
+    margin: 0;
+  }
+  
+  #date {
+    font-size: 14px;
+    margin: 5px 0 0 0;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .box {
+    width: 25%;
+    text-align: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+  }
+  
+  .box:first-child {
+    border-left: 1px solid #ccc;
+  }
+  
+  .box:last-child {
+    border-right: 1px solid #ccc;
+  }
+  
+  .box h2 {
+    font-size: 18px;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .footer p {
+    width: 33%;
+    text-align: center;
+  }
+  
+  
+  .continue-btn {
+    background-color: rgb(33, 188, 41);
+    color: #fff;
+    border-radius: 30%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
+  .finish-btn {
+    background-color: red;
+    color: #fff;
+    border-radius: 30%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los botones */
+    align-items: center; /* Centra verticalmente los botones */
+    margin-top: 20px; /* Ajusta el margen superior si es necesario */
+}
+
+
+
+
+  .footer2{
+    font-family: 'Ubuntu', sans-serif;
+    background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgb(69, 69, 71) 0%, rgb(69, 69, 71) 35%, rgb(69, 69, 71) 35%);
+            color: #ffffff;
+            padding: 100px;
+            font-size: 15px;
+            position: relative;
+            text-align: left;
+}
+
+
+
+
+#header {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(93, 93, 97) 0%, rgb(89, 89, 136) 35%, rgb(10, 62, 104) 100%);
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+     
+#header .menu {
+  display: flex;
+  text-align: center;
+}
+
+#header .menu a {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 10px;
+}
+
+#header .sociaIcons {
+  display: flex;
+}
+
+#header .socialIcons a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+
+
+#products {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+}
+
+#products .product {
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+}
+
+#footer {
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgb(93, 93, 97) 0%, rgb(89, 89, 136) 35%, rgb(10, 62, 104) 100%);
+  color: #ffffff;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+table {
+      width: 8%;
+      border-collapse: collapse;
+  }
+
+  th {
+      border: 2px solid black;
+      padding: 5px;
+      background-color: lightgray;
+  }
+
+  td {
+      border: 2px solid black;
+      padding: 5px;
+
+  }
+
+  .centered-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+.Resumen input {
+    width: 30%; /* Ancho completo */
+    padding: 10px; /* Espaciado interno */
+    margin-top: 10px; /* Espacio superior */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de fuente */
+}
+
+.Resumen input:last-child {
+    margin-top: 20px; 
+}
+
+
+/* Estilos para la ventana emergente */
+.modal-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.close-modal-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Estilos para el botón de apertura de la ventana emergente */
+.open-modal-btn {
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carrito de Compras</title>
+  <link rel="stylesheet" href="style/stylecarrito.css">
+  <script src="Script/carrito.js"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="logo">ZonaTecno</div>
+        <div class="menu">
+            <nbsp>
+            <nbsp>I</nbsp>
+            <a href="home.html">Productos</a>
+            <nbsp>I</nbsp> 
+            <nbsp>
+            <a href="promos.html">Noticias y Promociones</a>
+            <nbsp>I</nbsp> 
+            <a href="faq.html">Preguntas Frecuentes</a>
+        </div>
+        <div class="socialIcons">
+            <a href="home.html">Pagina Principal</a>
+            <a  href="http://www.facebook.com">Facebook</a>
+            <a href="http://www.Instagram.com">Instagram</a>
+        </div>
+    </div>
+
+    <h1>Carrito de Compras</h1>
+
+    <div class="centered-table">
+        <table>
+            <caption><b>Carrito de Compras</b></caption>
+            <thead>
+                <tr>
+                    <th>Descripción</th>
+                    <th>Cantidad</th>
+                    <th>Precio Unitario</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody id="cart-table">
+                <!-- Aquí se agregarán los productos dinámicamente -->
+            </tbody>
+        </table>
+    </div>
+    
+  
+    <div class="Resumen">
+        <p>Costo de envío: 3000</p>
+        <p>Total a pagar: <span id="totalPrice">0</span></p>
+
+        <input id="nombreInput" placeholder="Nombre de la persona que retira" oninput="validateNameInput()">
+        <br>
+        <input id="direccionInput" placeholder="Direccion">
+    </div>
+    
+
+    <div class="button-container">
+        <button class="continue-btn" onclick="redirectToHome()">Continuar con la compra</button>
+        <button class="finish-btn" onclick="showPurchaseDetails()">Realizar compra</button>
+    </div>
+
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal">
+            <span class="close-modal-btn" onclick="closeModal()">&times;</span>
+            <h2>¡Compra realizada!</h2>
+            <p id="modalDetails">Detalles de la compra...</p>
+            
+            <button class="close-modal-btn" onclick="closeModal()">Cerrar</button>
+        </div>
+    </div>
+    
+    
+    <div id="footer">
+        <div>800 000 7521</div>
+        <div>@Zonatecno@gmail.com</div>
+        <div>Central 200 oeste de la municipalidad de San José</div>
+    </div>
+
+    <div class="footer2">
+        <div class="f2">Quienes somos?</div>
+        <div class="f2">ZontaTecno es una empresa nacional de
+         venta de dispositivos tecnológicos de calidad.</div>
+         <div class="f3">
+            Sobre la aplicacion
+         </div>
+         <div class="f3">
+            ZonaTecno ofrece por medio de la aplicacion web productos tecnológicos en venta.
+            Cuenta con promociones y mucho mas. 
+         </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Recuperar los productos del Local Storage
+            const storedCartItems = JSON.parse(localStorage.getItem('cartItems'));
+            let totalPrice = 0; // Inicializar la suma total
+
+            if (storedCartItems) {
+                const tableBody = document.querySelector('#cart-table');
+
+                
+        
+                storedCartItems.forEach((item, index) => {
+                    const row = document.createElement('tr');
+                    row.innerHTML = `
+                    <td>${item.name}</td>
+                    <td>1</td> <!-- Aquí podrías mostrar la cantidad si tienes esa información -->
+                    <td>$${item.price}</td>
+                    <td>$${item.price}</td> <!-- Total -->
+                    <td><button class="remove-btn" data-index="${index}">Eliminar</button></td>
+                    `;
+                    tableBody.appendChild(row);
+                    totalPrice += item.price;
+                });
+                // Agregar evento de clic a los botones de eliminación
+                const removeButtons = document.querySelectorAll('.remove-btn');
+                removeButtons.forEach(button => {
+                    button.addEventListener('click', handleRemove);
+                });
+                const totalElement = document.querySelector('#totalPrice');
+                totalElement.textContent = `$${totalPrice + 3000}`;
+
+            }
+        });
+        function handleRemove(event) {
+        const indexToRemove = event.target.getAttribute('data-index');
+        const storedCartItems = JSON.parse(localStorage.getItem('cartItems'));
+
+        if (storedCartItems && indexToRemove !== null) {
+        storedCartItems.splice(indexToRemove, 1); // Eliminar el producto del arreglo
+        localStorage.setItem('cartItems', JSON.stringify(storedCartItems));
+
+        // Recargar la página para reflejar los cambios en la tabla
+        location.reload();
+        }
+    }
+
+    function redirectToHome() {
+        // Redirigir a la página home.html
+        window.location.href = 'home.html';
+    }
+
+    
+    </script>
+</body>
+</html>
+
+
+
+

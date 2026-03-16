@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bojtronic\\Documents\\Trabajo\\Terumo\\Test_API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABEFB15-4E51-4FBB-A22E-FF86A6F05CBA}|Test_API\\Test_API.csproj|c:\\users\\bojtronic\\documents\\trabajo\\terumo\\test_api\\test_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABEFB15-4E51-4FBB-A22E-FF86A6F05CBA}|Test_API\\Test_API.csproj|solutionrelative:test_api\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABEFB15-4E51-4FBB-A22E-FF86A6F05CBA}|Test_API\\Test_API.csproj|c:\\users\\bojtronic\\documents\\trabajo\\terumo\\test_api\\test_api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABEFB15-4E51-4FBB-A22E-FF86A6F05CBA}|Test_API\\Test_API.csproj|solutionrelative:test_api\\controllers\\personcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABEFB15-4E51-4FBB-A22E-FF86A6F05CBA}|Test_API\\Test_API.csproj|c:\\users\\bojtronic\\documents\\trabajo\\terumo\\test_api\\test_api\\test_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{8ABEFB15-4E51-4FBB-A22E-FF86A6F05CBA}|Test_API\\Test_API.csproj|solutionrelative:test_api\\test_api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8ABEFB15-4E51-4FBB-A22E-FF86A6F05CBA}|Test_API\\Test_API.csproj|c:\\users\\bojtronic\\documents\\trabajo\\terumo\\test_api\\test_api\\objects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8ABEFB15-4E51-4FBB-A22E-FF86A6F05CBA}|Test_API\\Test_API.csproj|solutionrelative:test_api\\objects\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Bojtronic\\Documents\\Trabajo\\Terumo\\Test_API\\Test_API\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Test_API\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Bojtronic\\Documents\\Trabajo\\Terumo\\Test_API\\Test_API\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Test_API\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-16T02:25:52.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Test_API.csproj",
+              "DocumentMoniker": "C:\\Users\\Bojtronic\\Documents\\Trabajo\\Terumo\\Test_API\\Test_API\\Test_API.csproj",
+              "RelativeDocumentMoniker": "Test_API\\Test_API.csproj",
+              "ToolTip": "C:\\Users\\Bojtronic\\Documents\\Trabajo\\Terumo\\Test_API\\Test_API\\Test_API.csproj",
+              "RelativeToolTip": "Test_API\\Test_API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-15T20:29:11.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PersonController.cs",
+              "DocumentMoniker": "C:\\Users\\Bojtronic\\Documents\\Trabajo\\Terumo\\Test_API\\Test_API\\Controllers\\PersonController.cs",
+              "RelativeDocumentMoniker": "Test_API\\Controllers\\PersonController.cs",
+              "ToolTip": "C:\\Users\\Bojtronic\\Documents\\Trabajo\\Terumo\\Test_API\\Test_API\\Controllers\\PersonController.cs",
+              "RelativeToolTip": "Test_API\\Controllers\\PersonController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T20:27:04.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Users\\Bojtronic\\Documents\\Trabajo\\Terumo\\Test_API\\Test_API\\Objects\\Person.cs",
+              "RelativeDocumentMoniker": "Test_API\\Objects\\Person.cs",
+              "ToolTip": "C:\\Users\\Bojtronic\\Documents\\Trabajo\\Terumo\\Test_API\\Test_API\\Objects\\Person.cs",
+              "RelativeToolTip": "Test_API\\Objects\\Person.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T20:17:06.218Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
