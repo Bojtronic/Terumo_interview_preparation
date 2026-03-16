@@ -1,0 +1,73 @@
+* Tell me about yourself *
+
+
+My name is Manuel and I am a software developer with experience in web development and backend programming.
+
+I have worked with technologies such as C#, .NET, SQL databases, and modern web technologies. During my academic and personal projects I have developed applications that include database design, backend logic, and user interfaces.
+
+I enjoy learning new technologies and improving my programming skills. I am especially interested in working in environments that focus on quality and reliable software development, which is why I was very interested in this opportunity.
+
+
+
+
+
+* Why do you want to work here? *
+
+
+I am very interested in working at Terumo Corporation because it is a global leader in medical technology and healthcare innovation.
+
+I really like that the company's mission is to contribute to society through healthcare. Developing software that supports medical devices or healthcare solutions is very meaningful because it can have a direct impact on people's lives.
+
+I would also like to grow professionally in a company that values quality, innovation, and global collaboration.
+
+
+
+
+
+* What programming languages do you know? *
+
+I have experience mainly with C# and .NET for backend development, and I have worked with SQL databases for data management.
+
+I also have some experience with frontend technologies and modern web frameworks. I am comfortable learning new technologies and adapting to different development environments.
+
+
+
+
+
+* How do you ensure code quality? *
+
+I try to write clean and maintainable code by following good programming practices.
+
+I also believe that testing, code reviews, and clear documentation are very important, especially in environments where software reliability is critical.
+
+
+
+
+
+* Describe a challenge you faced in a project *
+
+In one of my projects, I had to integrate a database with the backend of the application. At first there were issues with data consistency and query performance.
+
+I solved the problem by reviewing the database structure, optimizing queries, and testing the system with different scenarios.
+
+This experience helped me understand the importance of proper database design and testing.
+
+
+
+
+
+* Where do you see yourself in 5 years? *
+
+In five years I see myself as a more experienced software engineer, contributing to complex projects and helping develop reliable systems.
+
+I would also like to continue learning new technologies and improving my skills, especially in areas related to software architecture and high-quality development practices.
+
+
+
+
+
+
+
+
+
+
